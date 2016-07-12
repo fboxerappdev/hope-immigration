@@ -387,3 +387,52 @@ header .right-head p a {
 .news .news-item p {
   font-size: 15px;
 }
+.footer-contact {
+  background: #09509e none repeat scroll 0 0;
+  color: #fff;
+}
+.footer-contact .contact-info {
+  padding: 40px 0;
+}
+.footer-contact .contact-info h3 {
+  font-size: 22px;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+.footer-contact .contact-info span {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+}
+.footer-contact .contact-info p {
+  font-size: 16px;
+  font-weight: 300;
+}
+.footer-contact .contact-info ul {
+  margin-top: 11px;
+}
+.footer-contact .contact-info ul li {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 2.4;
+  padding-left: 40px;
+}
+.footer-contact .contact-info ul li.phone {
+  background: transparent url("../images/phone-tw.png") no-repeat scroll 0 center / 28px auto;
+}
+.footer-contact .contact-info ul li.message {
+  background: transparent url("../images/message.png") no-repeat scroll 0 center / 27px auto;
+}
+.footer-contact .contact-info ul li.facebook {
+  background: transparent url("../images/facebook.png") no-repeat scroll 0 center / 27px auto;
+}
+.footer-contact .map {
+  width: 100%;
+}
+.footer-contact .map iframe {
+  float: left;
+  height: 330px;
+  width: 100%;
+}
