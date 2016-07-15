@@ -59,7 +59,7 @@ header .right-head {
 }
 header .right-head address {
   color: #808080;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
   margin-bottom: 6px;
 }
@@ -542,19 +542,21 @@ footer p {
   color: #797975;
   font-size: 15px;
   line-height: 1.5;
-  padding: 15px 0;
+  padding: 5px 0;
 }
 .abt-man {
   padding: 20px 0;
   text-align: center;
 }
 .abt-man img {
+  border: 5px solid #003d79;
   max-width: 100%;
 }
 .abt-man h2 {
   font-size: 16px;
 }
 .abt-man h2 b {
+  color: #003d79;
   display: inline-block;
   font-size: 20px;
   padding-bottom: 10px;
@@ -579,8 +581,9 @@ footer p {
   padding: 20px 0;
 }
 .code-data h2 {
-  color: #62625e;
-  font-size: 28px;
+  color: #003d79;
+  font-size: 24px;
+  font-weight: bold;
 }
 .code-data h3 {
   color: #666662;
@@ -592,6 +595,15 @@ footer p {
   line-height: 1.5;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+  .code-data h2 {
+    font-size: 18px;
+  }
+  .srv-data a {
+    font-size: 13px;
+  }
+  .srv-data h2 {
+    font-size: 18px;
+  }
   header .logo {
     margin: 0 auto 21px;
     width: 180px;
@@ -722,7 +734,7 @@ footer p {
 }
 @media (min-width: 768px) {
   .navbar-full ul li a {
-    margin-right: 7px;
+    margin-right: 3px;
   }
   .slider-area .welcome-box {
     margin-top: 7px;
@@ -762,7 +774,7 @@ footer p {
 }
 @media (min-width: 992px) {
   .navbar-full ul li a {
-    margin-right: 51px;
+    margin-right: 47px;
   }
   .slider-area .welcome-box {
     margin-top: 18px;
@@ -803,7 +815,7 @@ footer p {
     font-size: 24px;
   }
   .navbar-full ul li a {
-    margin-right: 91px;
+    margin-right: 87px;
   }
   .testimonial-full h3.head3 {
     font-size: 28px;
