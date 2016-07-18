@@ -42,12 +42,12 @@ ul {
   list-style-type: none;
 }
 header {
-  padding: 20px 0 15px;
+  padding: 4px 0;
 }
 header .logo {
   max-width: 100%;
   padding: 8px 0;
-  width: 230px;
+  width: 187px;
 }
 header .logo img {
   width: 100%;
@@ -59,24 +59,25 @@ header .right-head {
 }
 header .right-head address {
   color: #808080;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 300;
+  line-height: 1.2;
   margin-bottom: 6px;
 }
 header .right-head p {
   margin: 0;
 }
 header .right-head p span {
-  background: transparent url("../images/phone.png") no-repeat scroll 0 center / 33px auto;
+  background: transparent url("../images/phone.png") no-repeat scroll 0 center / 28px auto;
   color: #5c5c5c;
-  font-size: 30px;
+  font-size: 26px;
   padding: 3px 0 5px 43px;
 }
 header .right-head p a {
   border-right: 1px solid #000;
   color: #afafaf;
   display: inline-block;
-  font-size: 28px;
+  font-size: 23px;
   margin-right: 15px;
   padding-right: 15px;
   vertical-align: top;
@@ -108,9 +109,8 @@ header .right-head p a {
   width: 100%;
 }
 .slider-area .welcome-box {
-  background: #09509e none repeat scroll 0 0;
+  background: #0F7CC1 none repeat scroll 0 0;
   color: #fff;
-  margin-top: 88px;
   padding: 26px;
   position: absolute;
   top: 0;
@@ -120,14 +120,14 @@ header .right-head p a {
 .slider-area .welcome-box h3 {
   font-size: 40px;
   font-weight: 300;
-  margin-top: 0;
+  margin-top: 4px;
 }
 .slider-area .welcome-box p {
   font-weight: 300;
   line-height: 1.5;
 }
 .slider-area .caption {
-  bottom: 60px;
+  bottom: 4px;
   position: absolute;
   right: 0;
 }
@@ -170,7 +170,7 @@ header .right-head p a {
 .dark-bluebox:before {
   background: #0a519f none repeat scroll 0 0;
   content: "";
-  height: 230px;
+  height: 165px;
   position: absolute;
   width: 100%;
 }
@@ -180,7 +180,7 @@ header .right-head p a {
   width: 100%;
 }
 .dark-bluebox .index-serv ul {
-  padding: 25px 0;
+  padding: 0;
   text-align: center;
 }
 .dark-bluebox .index-serv ul li {
@@ -192,8 +192,8 @@ header .right-head p a {
   width: 14%;
 }
 .dark-bluebox .index-serv ul li .head {
-  min-height: 163px;
-  padding: 12px 0;
+  min-height: 142px;
+  padding: 7px 0;
   position: relative;
 }
 .dark-bluebox .index-serv ul li .head:after {
@@ -207,7 +207,7 @@ header .right-head p a {
 }
 .dark-bluebox .index-serv ul li .head img {
   margin-bottom: 10px;
-  width: 110px;
+  width: 86px;
   transition: all 0.3s ease 0s;
 }
 .dark-bluebox .index-serv ul li .head:hover img {
@@ -216,14 +216,14 @@ header .right-head p a {
 .dark-bluebox .index-serv ul li .head span {
   color: #fff;
   display: inline-block;
-  font-size: 19px;
+  font-size: 17px;
   line-height: 1.2;
   text-transform: uppercase;
   vertical-align: top;
   width: 100%;
 }
 .dark-bluebox .index-serv ul li .info {
-  margin-top: 70px;
+  margin-top: 30px;
   min-height: 296px;
   position: relative;
 }
@@ -634,7 +634,6 @@ footer p {
     font-size: 23px;
   }
   .slider-area .caption {
-    bottom: 10px;
     left: 10px;
     right: initial;
   }
@@ -737,14 +736,10 @@ footer p {
     margin-right: 3px;
   }
   .slider-area .welcome-box {
-    margin-top: 7px;
     padding: 12px;
   }
   .slider-area .welcome-box h3 {
     font-size: 23px;
-  }
-  .slider-area .caption {
-    bottom: 10px;
   }
   .slider-area .caption h4 {
     font-size: 18px;
@@ -766,7 +761,7 @@ footer p {
     background: #0a519f none repeat scroll 0 0;
   }
   .testimonial-full h3.head3 {
-    font-size: 25px;
+    font-size: 23px;
   }
   .team-fullbox .team-item p {
     font-size: 14px;
@@ -777,7 +772,6 @@ footer p {
     margin-right: 47px;
   }
   .slider-area .welcome-box {
-    margin-top: 18px;
     padding: 16px;
   }
   .slider-area .welcome-box h3 {
@@ -799,7 +793,6 @@ footer p {
     background: #0f7cc1 none repeat scroll 0 0;
   }
   .slider-area .welcome-box {
-    margin-top: 22px;
     padding: 26px;
   }
   .slider-area .welcome-box h3 {
@@ -808,9 +801,6 @@ footer p {
   .slider-area .welcome-box a {
     font-size: 12px;
   }
-  .slider-area .caption {
-    bottom: 40px;
-  }
   .slider-area .caption h4 {
     font-size: 24px;
   }
@@ -818,31 +808,20 @@ footer p {
     margin-right: 87px;
   }
   .testimonial-full h3.head3 {
-    font-size: 28px;
+    font-size: 24px;
   }
   .team-fullbox .team-item p {
     font-size: 16px;
   }
 }
 @media (min-width: 1500px) {
-  .slider-area .welcome-box {
-    margin-top: 40px;
-  }
   .slider-area .welcome-box h3 {
     font-size: 40px;
   }
   .slider-area .welcome-box a {
     font-size: 15px;
   }
-  .slider-area .caption {
-    bottom: 60px;
-  }
   .slider-area .caption h4 {
-    font-size: 36px;
-  }
-}
-@media (min-width: 1800px) {
-  .slider-area .welcome-box {
-    margin-top: 88px;
+    font-size: 25px;
   }
 }
