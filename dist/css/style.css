@@ -116,6 +116,7 @@ header .right-head p a {
   top: 0;
   width: 380px;
   z-index: 2;
+  height: 100%;
 }
 .slider-area .welcome-box h3 {
   font-size: 40px;
