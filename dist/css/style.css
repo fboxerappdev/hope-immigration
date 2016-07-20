@@ -233,6 +233,7 @@ header .right-head p a {
   margin-top: 30px;
   min-height: 296px;
   position: relative;
+  text-align: left;
 }
 .dark-bluebox .index-serv ul li .info:after {
   background: #fff none repeat scroll 0 0;
@@ -246,7 +247,7 @@ header .right-head p a {
 .dark-bluebox .index-serv ul li .info span {
   color: #fff;
   line-height: 1.2;
-  text-transform: uppercase;
+  text-transform: capitalize;
   vertical-align: top;
   display: inline-block;
   font-size: 14px;
@@ -663,6 +664,7 @@ footer p {
     margin-top: 9px;
     min-height: inherit;
     position: relative;
+    text-align: center;
   }
   .dark-bluebox::before {
     background: transparent none repeat scroll 0 0;
@@ -746,7 +748,10 @@ footer p {
     padding: 12px;
   }
   .slider-area .welcome-box h3 {
-    font-size: 23px;
+    font-size: 18px;
+  }
+  .slider-area .welcome-box p {
+    margin-bottom: 2px;
   }
   .slider-area .caption h4 {
     font-size: 18px;
@@ -783,6 +788,9 @@ footer p {
   }
   .slider-area .welcome-box h3 {
     font-size: 27px;
+  }
+  .slider-area .welcome-box p {
+    margin-bottom: 0;
   }
 }
 @media (min-width: 1280px) {
