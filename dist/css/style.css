@@ -109,26 +109,29 @@ header .right-head p a {
   width: 100%;
 }
 .slider-area .welcome-box {
-  background: #0F7CC1 none repeat scroll 0 0;
-  color: #fff;
+  background: rgba(255, 255, 255, 0.6) none repeat scroll 0 0;
+  color: #0a519f;
+  height: 100%;
   padding: 26px;
   position: absolute;
   top: 0;
   width: 380px;
   z-index: 2;
-  height: 100%;
 }
 .slider-area .welcome-box h3 {
   font-size: 34px;
-  font-weight: 300;
+  font-weight: 400;
   margin-top: 4px;
 }
 .slider-area .welcome-box p {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5;
 }
+.slider-area .welcome-box a {
+  color: #000;
+}
 .slider-area .caption {
-  bottom: 4px;
+  bottom: 20px;
   position: absolute;
   right: 0;
 }
@@ -141,16 +144,18 @@ header .right-head p a {
   text-align: center;
 }
 .slider-area .caption a {
-  background: #09509e none repeat scroll 0 0;
-  color: #fff;
+  background: #fff none repeat scroll 0 0;
+  color: #0a519f;
   float: right;
   font-size: 15px;
   padding: 9px 17px;
   text-transform: uppercase;
+  font-weight: 600;
 }
 .slider-area .bx-wrapper .bx-pager,
 .slider-area .bx-wrapper .bx-controls-auto {
-  bottom: 12px;
+  bottom: 0;
+  padding: 0;
 }
 .slider-area .bx-wrapper .bx-pager .bx-pager-item a,
 .slider-area .bx-wrapper .bx-controls-auto .bx-pager-item a {
@@ -207,9 +212,10 @@ header .right-head p a {
   width: 1px;
 }
 .dark-bluebox .index-serv ul li .head img {
-  margin-bottom: 10px;
-  width: 76px;
+  margin-bottom: 3px;
+  margin-top: 6px;
   transition: all 0.3s ease 0s;
+  width: 76px;
 }
 .dark-bluebox .index-serv ul li .head:hover img {
   transform: translate(0px, -20px);
@@ -817,7 +823,7 @@ footer p {
 }
 @media (min-width: 1500px) {
   .slider-area .welcome-box h3 {
-    font-size: 40px;
+    font-size: 34px;
   }
   .slider-area .welcome-box a {
     font-size: 15px;
