@@ -718,6 +718,9 @@ footer p {
   .navbar-full {
     position: relative;
   }
+  .slider-area .bx-wrapper img {
+    width: initial;
+  }
 }
 @media only screen and (min-width: 0px) and (max-width: 480px) {
   header .right-head p span {
@@ -741,9 +744,6 @@ footer p {
   .slider-area .bx-wrapper .bx-pager,
   .slider-area .bx-wrapper .bx-controls-auto {
     bottom: -28px;
-  }
-  .slider-area .bx-wrapper img {
-    width: initial;
   }
 }
 @media (min-width: 768px) {
