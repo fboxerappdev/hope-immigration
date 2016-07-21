@@ -742,6 +742,9 @@ footer p {
   .slider-area .bx-wrapper .bx-controls-auto {
     bottom: -28px;
   }
+  .slider-area .bx-wrapper img {
+    width: initial;
+  }
 }
 @media (min-width: 768px) {
   .navbar-full ul li a {
